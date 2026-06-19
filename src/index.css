@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@300;400&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css');
+@import "tailwindcss";
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: #080c10;
+  color: #e8edf2;
+  font-family: 'DM Mono', monospace;
+  overflow-x: hidden;
+}
+
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+.animate-blink { animation: blink 1s infinite; }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #080c10; }
+::-webkit-scrollbar-thumb { background: #00e5ff; border-radius: 2px; }
