@@ -6,8 +6,8 @@ export default function Footer() {
       </p>
       <div className="flex gap-2">
         {[
-          { icon: 'ti-brand-github', url: 'https://github.com/' },
-          { icon: 'ti-brand-linkedin', url: 'https://linkedin.com/' },
+          { icon: 'ti-brand-github', url: 'https://github.com/Andriatina21' },
+          { icon: 'ti-brand-linkedin', url: 'https://www.linkedin.com/in/andriatina-raelison-73643b390' },
         ].map(({ icon, url }) => (
           <a key={icon} href={url} target="_blank" rel="noreferrer"
             className="w-7 h-7 border border-[#1a2332] flex items-center justify-center text-[#4a5568] no-underline text-[13px] hover:border-[#00e5ff] hover:text-[#00e5ff] transition-all">

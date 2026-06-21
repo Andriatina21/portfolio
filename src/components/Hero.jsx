@@ -69,7 +69,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* ✅ Colonne droite — photo en cercle */}
+        {/*  Colonne droite — photo en cercle */}
         <div className="flex items-center justify-center shrink-0">
           <div className="relative">
             {/* Cercles décoratifs */}

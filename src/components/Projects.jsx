@@ -97,10 +97,7 @@ const projects = [
   },
 ]
 
-// ============================================================
-// 🎠 CARROUSEL D'IMAGES
-// Affiché automatiquement si le projet a plusieurs images
-// ============================================================
+
 function Carousel({ images, title }) {
   const [current, setCurrent] = useState(0)
 
@@ -147,9 +144,7 @@ function Carousel({ images, title }) {
   )
 }
 
-// ============================================================
-// 🃏 CARD PROJET
-// ============================================================
+
 function ProjectCard({ project }) {
   return (
     <div className="border border-[#1a2332] bg-[#0e1419] flex flex-col hover:border-[#00e5ff]/40 transition-colors duration-200">
@@ -195,9 +190,6 @@ function ProjectCard({ project }) {
   )
 }
 
-// ============================================================
-// 📄 SECTION PROJECTS
-// ============================================================
 export default function Projects() {
   return (
     <section id="projects" className="bg-[#080c10] border-t border-[#1a2332] px-4 md:px-16 py-20">
