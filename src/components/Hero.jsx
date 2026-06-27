@@ -56,7 +56,7 @@ export default function Hero() {
           {/* Stats */}
           <div className="flex flex-wrap gap-8 pt-6 border-t border-[#1a2332]">
             {[
-              { num: '8', label: "Famework" },
+              { num: '8', label: "Framework" },
               { num: '5', label: 'Technologies' },
             ].map(({ num, label }) => (
               <div key={label}>
